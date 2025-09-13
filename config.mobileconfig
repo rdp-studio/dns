@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Inc//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>PayloadDisplayName</key>
+        <string>LaunchPad DNS over HTTPS</string>
+        <key>PayloadDescription</key>
+        <string>2a14:7583:f743::53, 2a14:7583:f743::54</string>
+        <key>PayloadUUID</key>
+        <string>76BCACA7-F306-4D1E-9854-C1E7E5DE6FA5</string>
+        <key>PayloadIdentifier</key>
+        <string>top.launchpadx.dns</string>
+        <key>PayloadType</key>
+        <string>Configuration</string>
+        <key>PayloadContent</key>
+        <array>
+            <dict>
+                <key>DNSSettings</key>
+                <dict>
+                    <key>DNSProtocol</key>
+                    <string>HTTPS</string>
+                    <key>ServerAddresses</key>
+                    <array>
+                        <string>2a14:7583:f743::53</string>
+                        <string>2a14:7583:f743::54</string>
+                    </array>
+                    <key>ServerURL</key>
+                    <string>https://dns.launchpadx.top/dns-query</string>
+                </dict>
+                <key>PayloadVersion</key>
+                <integer>1</integer>
+                <key>PayloadDisplayName</key>
+                <string>LaunchPad DNS over HTTPS</string>
+                <key>PayloadDescription</key>
+                <string>2a14:7583:f743::53, 2a14:7583:f743::54</string>
+                <key>PayloadIdentifier</key>
+                <string>top.launchpadx.dns.payload</string>
+                <key>PayloadUUID</key>
+                <string>6A4E9500-CB6E-45F0-BB7A-A7F22F6E26B6</string>
+                <key>PayloadType</key>
+                <string>com.apple.dnsSettings.managed</string>
+            </dict>
+        </array>
+    </dict>
+</plist>
