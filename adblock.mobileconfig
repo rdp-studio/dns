@@ -7,7 +7,7 @@
         <key>PayloadDisplayName</key>
         <string>LaunchPad DNS with Ad-blocking over HTTPS</string>
         <key>PayloadDescription</key>
-        <string>2a14:7583:f743::55, 2a14:7583:f743::56</string>
+        <string>2a14:7583:f743::5353, 2a14:7583:f743::5454</string>
         <key>PayloadUUID</key>
         <string>3FF583D6-C1BA-45D8-BFD1-20BAA76807B5</string>
         <key>PayloadIdentifier</key>
@@ -23,8 +23,8 @@
                     <string>HTTPS</string>
                     <key>ServerAddresses</key>
                     <array>
-                        <string>2a14:7583:f743::55</string>
-                        <string>2a14:7583:f743::56</string>
+                        <string>2a14:7583:f743::5353</string>
+                        <string>2a14:7583:f743::5454</string>
                     </array>
                     <key>ServerURL</key>
                     <string>https://adns.launchpadx.top/dns-query</string>
@@ -34,7 +34,7 @@
                 <key>PayloadDisplayName</key>
                 <string>LaunchPad DNS with Ad-blocking over HTTPS</string>
                 <key>PayloadDescription</key>
-                <string>2a14:7583:f743::55, 2a14:7583:f743::56</string>
+                <string>2a14:7583:f743::5353, 2a14:7583:f743::5454</string>
                 <key>PayloadIdentifier</key>
                 <string>top.launchpadx.adns.payload</string>
                 <key>PayloadUUID</key>
